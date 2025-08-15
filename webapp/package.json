@@ -1,0 +1,46 @@
+{
+  "name": "softtennis-ai-coach-web",
+  "version": "1.0.0",
+  "description": "軟式テニス専用AI動作分析Webアプリ",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@mui/material": "5.14.15",
+    "@mui/icons-material": "5.14.15",
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@tanstack/react-query": "5.0.5",
+    "axios": "1.5.1",
+    "framer-motion": "10.16.4",
+    "react-dropzone": "14.2.3",
+    "recharts": "2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.7",
+    "@types/react": "18.2.31",
+    "@types/react-dom": "18.2.14",
+    "typescript": "5.2.2",
+    "eslint": "8.52.0",
+    "eslint-config-next": "14.0.0"
+  },
+  "keywords": [
+    "softtennis",
+    "tennis",
+    "AI",
+    "motion-analysis",
+    "webapp",
+    "react",
+    "nextjs"
+  ],
+  "author": "SoftTennis AI Team",
+  "license": "MIT"
+}
